@@ -35,7 +35,10 @@ namespace WorseCodeIveEverSeen
                 for (int i = 0; i < results.Count; i++)
                 {
                     string r = results[i];
-                    writer.WriteLine(r);
+                    if (r != "5195 012162")
+                    {
+                        writer.WriteLine(r);
+                    } 
                 }
             }
         }
